@@ -1,0 +1,24 @@
+{
+  "name": "extracteur_page_jaune",
+  "version": "1.0.0",
+  "description": "Extracteur d'information sur page jaune",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd ../client && npm run dev",
+    "server": "node server.js",
+    "watch": "nodemon --watch server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "puppeteer": "^19.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
